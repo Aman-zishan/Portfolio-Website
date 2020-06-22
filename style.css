@@ -1,9 +1,12 @@
-#top-bar{
-    width: 1510px;
+#top-bar {
+    width: 1519px;
     height: 70px;
     background-color: rgb(195, 255, 232);
     margin: auto;
     position: relative;
+    border: 4px;
+    border-style: dotted none dotted none;
+    margin-left: -8;
 }
 
 body{
@@ -16,6 +19,7 @@ body{
 .avatar img{
     float:left;
     border-radius:20%;
+    box-shadow: 5px 5px 5px rgba(156, 156, 156, 0.637);
     }
 
 .avatar{
@@ -25,50 +29,96 @@ body{
 }
 
 .intro-text {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Barlow Semi Condensed', sans-serif;
     text-align: left;
     font-size: 35px;
+    font-weight: 700;
     margin-top: 50px;
-    padding-top: 50px;
-    padding-left: 480px;
+    padding-top: 40px;
+    padding-left: 450px;
+    padding-right: 20px;
 }
 
 #intro {
-    height: 500px;
-    width: 1430px;
+    height: 485px;
+    width: 1443px;
     margin-top: 50px;
     margin-left: 40px;
     margin-right: 40px;
     background-color: rgb(241, 241, 241);
-    border-radius: 8px;
+    border-radius: 6px;
+    box-shadow: 8px 8px 5px rgba(156, 156, 156, 0.637);
 }
+
+.name{
+    font-family: 'Comfortaa', cursive;
+    text-align: left;
+    font-size: 90px;
+    font-weight: 500;
+    margin-top: 20px;
+    padding-left: 450px;
+    padding-right: 20px;
+}
+
+a:active {
+    color: blue;
+  }
+
+ a{
+    text-decoration: none;
+ } 
+
+.contact {
+    margin-left: 50px;
+    float: left;
+    height: 50px;
+    width: 250px;
+    border-radius: 50px;
+    background-color: rgb(195, 255, 232);
+    border: none;
+    box-shadow: 5px 6px 5px rgb(71, 136, 112);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: black;
+}
+
+#contactContainer{
+    margin-top: 50px;
+    padding-left: 400px;
+}
+
 #box1{
     display: inline-block;
     float: left;
-    height: 450px;
-    width: 450px;
+    height: 400px;
+    width: 400px;
     margin-top: 50px;
     margin-left: 40px;
     background-color: rgb(241, 241, 241);  
     border-radius: 8px; 
+    box-shadow: 5px 5px 5px rgba(156, 156, 156, 0.637);
 }
 
 #box2{
     display: inline-block;
     float: left;
-    height: 450px;
-    width: 450px;
-    margin: 50px 30px 0 40px;
+    height: 400px;
+    width: 400px;
+    margin: 50px 115px 0 115px;
     background-color: rgb(241, 241, 241);   
     border-radius: 8px; 
+    box-shadow: 5px 5px 5px rgba(156, 156, 156, 0.637);
 }
 
 #box3{
     display: inline-block;
     float: left;
-    height: 450px;
-    width: 450px;
-    margin: 50px 30px 0 10px;
+    height: 400px;
+    width: 400px;
+    margin: 50px 0px 0px 10px;
     background-color: rgb(241, 241, 241);   
     border-radius: 8px; 
+    box-shadow: 5px 5px 5px rgba(156, 156, 156, 0.637);
 }
