@@ -36,7 +36,6 @@ body{
     margin-top: 50px;
     padding-top: 40px;
     padding-left: 450px;
-    padding-right: 20px;
 }
 
 #intro {
@@ -50,43 +49,41 @@ body{
     box-shadow: 8px 8px 5px rgba(156, 156, 156, 0.637);
 }
 
+#contactContainer{
+    margin-top: 50px;
+    margin-left: 1050px;
+} 
+
 .name{
     font-family: 'Comfortaa', cursive;
     text-align: left;
-    font-size: 90px;
+    font-size: 100px;
     font-weight: 500;
     margin-top: 20px;
     padding-left: 450px;
     padding-right: 20px;
 }
 
-a:active {
-    color: blue;
+a{
+    color: black;
+  }
+a:visited {
+    text-decoration: none;
   }
 
- a{
+a:active {
+    color: hotpink;
+  }
+
+.icon {
+    background-color: #ffb6dc;
+    border-radius: 50%;
+    padding: 16px;
+    height: 40px;
+    width: 40px;
+    margin-left: 30px;
     text-decoration: none;
- } 
-
-.contact {
-    margin-left: 50px;
-    float: left;
-    height: 50px;
-    width: 250px;
-    border-radius: 50px;
-    background-color: rgb(255, 182, 220);
-    border: none;
-    box-shadow: 5px 6px 5px rgba(116, 116, 116, 0.637);
-    font-family: 'Barlow Semi Condensed', sans-serif;
-    text-align: center;
-    font-size: 35px;
-    font-weight: 700;
-    color: black;
-}
-
-#contactContainer{
-    margin-top: 50px;
-    padding-left: 400px;
+    box-shadow: 5px 5px 5px rgba(156, 156, 156, 0.637);
 }
 
 #box1{
@@ -98,7 +95,7 @@ a:active {
     margin-left: 40px;
     background-color: rgb(241, 241, 241);  
     border-radius: 8px; 
-    box-shadow: 5px 5px 5px rgba(156, 156, 156, 0.637);
+    box-shadow: 5px 5px 5px rgba(94, 94, 94, 0.856);
 }
 
 #box2{
@@ -122,12 +119,3 @@ a:active {
     border-radius: 8px; 
     box-shadow: 5px 5px 5px rgba(156, 156, 156, 0.637);
 }
-
-.fa-linkedin {
-    background: #09435e;
-    color: rgb(43, 13, 13);
-  }
-
-#icons{
-    float: right;
-}  
