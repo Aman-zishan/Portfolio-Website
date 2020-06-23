@@ -51,7 +51,7 @@ body{
 
 #contactContainer{
     margin-top: 50px;
-    margin-left: 1050px;
+    margin-left: 930px;
 } 
 
 .name{
@@ -78,19 +78,24 @@ a:active {
 .icon {
     background-color: #ffb6dc;
     border-radius: 50%;
-    padding: 16px;
-    height: 40px;
-    width: 40px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-right: 12px;
+    padding-left: 12px;
+    width: 50px;
+    height: 50px;
     margin-left: 30px;
     text-decoration: none;
+    text-align:center;
     box-shadow: 5px 5px 5px rgba(156, 156, 156, 0.637);
 }
+
 
 #box1{
     display: inline-block;
     float: left;
     height: 400px;
-    width: 400px;
+    width: 950px;
     margin-top: 50px;
     margin-left: 40px;
     background-color: rgb(241, 241, 241);  
@@ -98,23 +103,24 @@ a:active {
     box-shadow: 5px 5px 5px rgba(94, 94, 94, 0.856);
 }
 
-#box2{
+#box2 {
     display: inline-block;
     float: left;
     height: 400px;
     width: 400px;
-    margin: 50px 115px 0 115px;
-    background-color: rgb(241, 241, 241);   
-    border-radius: 8px; 
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 8px;
     box-shadow: 5px 5px 5px rgba(156, 156, 156, 0.637);
 }
 
 #box3{
-    display: inline-block;
     float: left;
     height: 400px;
     width: 400px;
-    margin: 50px 0px 0px 10px;
+    margin-left: 50px;
+    margin-top: 50px;
     background-color: rgb(241, 241, 241);   
     border-radius: 8px; 
     box-shadow: 5px 5px 5px rgba(156, 156, 156, 0.637);
