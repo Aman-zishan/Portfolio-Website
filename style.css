@@ -105,6 +105,7 @@ a:active {
     padding-top: 30px;
     padding-left: 10px;
     padding-right: 10px;
+    margin-bottom: 10px;
     font-size: 35px;
 }
 
@@ -131,6 +132,7 @@ a:active {
     font-size: 28px;
     margin-left: 30px;
     margin-top: 50px;
+    margin-bottom: 10px;
     height: 220px;
     width: 20px;
     background-color: #db6974;
@@ -150,6 +152,7 @@ a:active {
     width: 40px;
     margin-left: 5px;
     margin-top: 50px;
+    margin-bottom: 10px;
     background-color: #db6974;
     border-radius: 5px;
 }
