@@ -1,0 +1,38 @@
+#top-bar {
+    width: 1519px;
+    height: 70px;
+    background-color: #db6974;
+    margin: auto;
+    position: relative;
+    border: 4px;
+    border-style: dashed none dashed none;
+    margin-left: -8;
+}
+
+.heading{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 200;
+    color: rgb(0, 0, 0);
+} 
+
+.sections{
+    display: inline-block;
+    float: left;
+    height: 500px;
+    width: 400px;
+    margin-left: 80px;
+    margin-top: 50px;
+    background-color: #fff0f3;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgba(94, 94, 94, 0.856);
+}
+
+body{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    background-color: #fdb3ba;
+}
+
